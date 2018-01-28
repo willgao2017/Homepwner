@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let itemsController = window!.rootViewController as! ItemsViewController
         itemsController.itemStore = itemStore
         
-        return true
+        return true 
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
